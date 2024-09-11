@@ -17,11 +17,11 @@ export default function Home() {
    {/* <CoverPage/> */}
    {/* <MentorProfilePage/> */}
 
-   {/* <QuestionAnswerPage/> */}
+  {/*  <QuestionAnswerPage/> */}
 
    {/* <AppointmentScheduler/> */}
 
-   {/* <MentorsList/> */}
+  {/*  <MentorsList/> */}
    <StudentQuestionUpload/>
    </>
   );
