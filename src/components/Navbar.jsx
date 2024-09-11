@@ -32,9 +32,9 @@ export default function Navbar() {
                         </div>
                         <div className="hidden md:flex space-x-4 ml-10">
                             <NavLink href="/"><span>Home</span></NavLink>
-                            <NavLink href="/about"><span>About</span></NavLink>
-                            <NavLink href="/mentorProfile"><span>Mentors</span></NavLink>
-                            <NavLink href="/contact"><span>Contact</span></NavLink>
+                            <NavLink href="/aboutPage"><span>About</span></NavLink>
+                            <NavLink href="/mentorsList"><span>Mentors</span></NavLink>
+                            <NavLink href="/askQuestion"><span>Ask Question</span></NavLink>
                         </div>
                     </div>
                     <div className="flex items-center md:hidden">

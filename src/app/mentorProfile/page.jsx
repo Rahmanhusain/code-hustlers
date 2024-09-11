@@ -10,8 +10,8 @@ const MentorProfilePage = () => {
             <img className="w-32 h-32 sm:w-48 sm:h-48 rounded-full border-4 border-white mx-auto" src="https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725926400&semt=ais_hybrid" alt="John's profile picture" />
           </div>
           <div className="mt-6 text-center">
-            <h1 className="text-3xl font-bold text-gray-900">John Doe</h1>
-            <p className="text-xl text-gray-600">Software Engineering Mentor</p>
+            <h1 className="text-3xl font-bold text-gray-900">Dr. Jane Smith</h1>
+            <p className="text-xl text-gray-600">Computer Science</p>
           </div>
           <div className="mt-6">
             <div className="flex justify-center space-x-4">

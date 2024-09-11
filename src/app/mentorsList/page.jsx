@@ -1,6 +1,8 @@
+"use client"
 import React from 'react';
-
+import { useRouter } from 'next/navigation';
 const MentorsList = () => {
+  const router = useRouter();
   // Mock data for mentors
   const mentors = [
     {
@@ -74,10 +76,10 @@ const MentorsList = () => {
                   <p className="text-sm text-gray-600">{mentor.availability}</p>
                 </div>
                 <div className="flex space-x-2">
-                  <button className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                  <button className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-md text-sm font-medium hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500" onClick={()=>{router.push("/mentorProfile") }}>
                     View Profile
                   </button>
-                  <button className="flex-1 bg-green-600 text-white py-2 px-4 rounded-md text-sm font-medium hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                  <button className="flex-1 bg-green-600 text-white py-2 px-4 rounded-md text-sm font-medium hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500" onClick={()=>{router.push("/appointmentScheduler") }}>
                     Schedule
                   </button>
                 </div>
