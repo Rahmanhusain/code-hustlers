@@ -1,4 +1,5 @@
 import Banner from "@/components/banner";
+import Chat from "@/components/Chat";
 import Navbar from "@/components/Navbar";
 import CoverPage from "@/components/CoverPage";
 import Image from "next/image";
@@ -16,11 +17,11 @@ export default function Home() {
    {/* <CoverPage/> */}
    {/* <MentorProfilePage/> */}
 
-   {/* <QuestionAnswerPage/> */}
+  {/*  <QuestionAnswerPage/> */}
 
    {/* <AppointmentScheduler/> */}
 
-   {/* <MentorsList/> */}
+  {/*  <MentorsList/> */}
    <StudentQuestionUpload/>
    </>
   );
